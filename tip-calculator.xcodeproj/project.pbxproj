@@ -17,6 +17,8 @@
 		1266FC182B6CF49400D35198 /* LabelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1266FC172B6CF49400D35198 /* LabelFactory.swift */; };
 		1266FC1D2B6E78B000D35198 /* AmountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1266FC1C2B6E78B000D35198 /* AmountView.swift */; };
 		1266FC202B6E7A2C00D35198 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1266FC1F2B6E7A2C00D35198 /* UIView+Extension.swift */; };
+		1266FC232B6E9D5300D35198 /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1266FC222B6E9D5300D35198 /* Tip.swift */; };
+		1266FC252B6E9D6C00D35198 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1266FC242B6E9D6C00D35198 /* HeaderView.swift */; };
 		12A7B2362B6B488E00081A0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A7B2352B6B488E00081A0C /* AppDelegate.swift */; };
 		12A7B2382B6B488E00081A0C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A7B2372B6B488E00081A0C /* SceneDelegate.swift */; };
 		12A7B23A2B6B488E00081A0C /* CalculatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A7B2392B6B488E00081A0C /* CalculatorVC.swift */; };
@@ -60,6 +62,8 @@
 		1266FC172B6CF49400D35198 /* LabelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelFactory.swift; sourceTree = "<group>"; };
 		1266FC1C2B6E78B000D35198 /* AmountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountView.swift; sourceTree = "<group>"; };
 		1266FC1F2B6E7A2C00D35198 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		1266FC222B6E9D5300D35198 /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
+		1266FC242B6E9D6C00D35198 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		12A7B2322B6B488D00081A0C /* tip-calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tip-calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		12A7B2352B6B488E00081A0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12A7B2372B6B488E00081A0C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -113,6 +117,7 @@
 				1266FC0A2B6CE60200D35198 /* TipInputView.swift */,
 				1266FC0C2B6CE61000D35198 /* SplitInputView.swift */,
 				1266FC1C2B6E78B000D35198 /* AmountView.swift */,
+				1266FC242B6E9D6C00D35198 /* HeaderView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -142,6 +147,14 @@
 			path = Extension;
 			sourceTree = "<group>";
 		};
+		1266FC212B6E9D4300D35198 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1266FC222B6E9D5300D35198 /* Tip.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		12A7B2292B6B488D00081A0C = {
 			isa = PBXGroup;
 			children = (
@@ -166,6 +179,7 @@
 		12A7B2342B6B488E00081A0C /* tip-calculator */ = {
 			isa = PBXGroup;
 			children = (
+				1266FC212B6E9D4300D35198 /* Model */,
 				1266FC1E2B6E7A1C00D35198 /* Extension */,
 				1266FC162B6CF47D00D35198 /* Resource */,
 				1266FC0E2B6CEB0100D35198 /* Config */,
@@ -353,12 +367,14 @@
 				12A7B23A2B6B488E00081A0C /* CalculatorVC.swift in Sources */,
 				1266FC202B6E7A2C00D35198 /* UIView+Extension.swift in Sources */,
 				1266FC052B6CE52F00D35198 /* LogoView.swift in Sources */,
+				1266FC232B6E9D5300D35198 /* Tip.swift in Sources */,
 				1266FC1D2B6E78B000D35198 /* AmountView.swift in Sources */,
 				1266FC102B6CEB1600D35198 /* ThemeColor.swift in Sources */,
 				1266FC182B6CF49400D35198 /* LabelFactory.swift in Sources */,
 				1266FC092B6CE5F400D35198 /* BillInputView.swift in Sources */,
 				1266FC072B6CE5E200D35198 /* ResultView.swift in Sources */,
 				12A7B2362B6B488E00081A0C /* AppDelegate.swift in Sources */,
+				1266FC252B6E9D6C00D35198 /* HeaderView.swift in Sources */,
 				1266FC122B6CEB2600D35198 /* ThemeFont.swift in Sources */,
 				12A7B2382B6B488E00081A0C /* SceneDelegate.swift in Sources */,
 				1266FC0D2B6CE61000D35198 /* SplitInputView.swift in Sources */,
