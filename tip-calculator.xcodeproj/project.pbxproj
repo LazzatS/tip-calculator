@@ -21,6 +21,7 @@
 		1266FC252B6E9D6C00D35198 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1266FC242B6E9D6C00D35198 /* HeaderView.swift */; };
 		1266FC282B6FB99D00D35198 /* CalculatorVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1266FC272B6FB99D00D35198 /* CalculatorVM.swift */; };
 		1266FC2A2B6FBA8300D35198 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1266FC292B6FBA8300D35198 /* Result.swift */; };
+		1266FC2C2B6FF39E00D35198 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1266FC2B2B6FF39E00D35198 /* String+Extension.swift */; };
 		12A7B2362B6B488E00081A0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A7B2352B6B488E00081A0C /* AppDelegate.swift */; };
 		12A7B2382B6B488E00081A0C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A7B2372B6B488E00081A0C /* SceneDelegate.swift */; };
 		12A7B23A2B6B488E00081A0C /* CalculatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A7B2392B6B488E00081A0C /* CalculatorVC.swift */; };
@@ -68,6 +69,7 @@
 		1266FC242B6E9D6C00D35198 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		1266FC272B6FB99D00D35198 /* CalculatorVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorVM.swift; sourceTree = "<group>"; };
 		1266FC292B6FBA8300D35198 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		1266FC2B2B6FF39E00D35198 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		12A7B2322B6B488D00081A0C /* tip-calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tip-calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		12A7B2352B6B488E00081A0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12A7B2372B6B488E00081A0C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -147,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				1266FC1F2B6E7A2C00D35198 /* UIView+Extension.swift */,
+				1266FC2B2B6FF39E00D35198 /* String+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -388,6 +391,7 @@
 				1266FC092B6CE5F400D35198 /* BillInputView.swift in Sources */,
 				1266FC072B6CE5E200D35198 /* ResultView.swift in Sources */,
 				12A7B2362B6B488E00081A0C /* AppDelegate.swift in Sources */,
+				1266FC2C2B6FF39E00D35198 /* String+Extension.swift in Sources */,
 				1266FC282B6FB99D00D35198 /* CalculatorVM.swift in Sources */,
 				1266FC252B6E9D6C00D35198 /* HeaderView.swift in Sources */,
 				1266FC122B6CEB2600D35198 /* ThemeFont.swift in Sources */,
