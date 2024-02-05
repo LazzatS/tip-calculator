@@ -36,6 +36,7 @@
 		12A7B26D2B6CB5F900081A0C /* CombineCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 12A7B26C2B6CB5F900081A0C /* CombineCocoa */; };
 		12A7B2702B6CB6F200081A0C /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = 12A7B26F2B6CB6F200081A0C /* SnapshotTesting */; };
 		12A7B2722B6CB70600081A0C /* CombineCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 12A7B2712B6CB70600081A0C /* CombineCocoa */; };
+		12CDB0182B70F8A50074073B /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CDB0172B70F8A50074073B /* Int+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +85,7 @@
 		12A7B2522B6B489000081A0C /* tip-calculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tip-calculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		12A7B2562B6B489000081A0C /* tip_calculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tip_calculatorUITests.swift; sourceTree = "<group>"; };
 		12A7B2582B6B489000081A0C /* tip_calculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tip_calculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		12CDB0172B70F8A50074073B /* Int+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +155,7 @@
 				1266FC1F2B6E7A2C00D35198 /* UIView+Extension.swift */,
 				1266FC2B2B6FF39E00D35198 /* String+Extension.swift */,
 				1266FC2D2B6FFF2E00D35198 /* UIResponder+Extension.swift */,
+				12CDB0172B70F8A50074073B /* Int+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -389,6 +392,7 @@
 				1266FC202B6E7A2C00D35198 /* UIView+Extension.swift in Sources */,
 				1266FC052B6CE52F00D35198 /* LogoView.swift in Sources */,
 				1266FC232B6E9D5300D35198 /* Tip.swift in Sources */,
+				12CDB0182B70F8A50074073B /* Int+Extension.swift in Sources */,
 				1266FC1D2B6E78B000D35198 /* AmountView.swift in Sources */,
 				1266FC102B6CEB1600D35198 /* ThemeColor.swift in Sources */,
 				1266FC182B6CF49400D35198 /* LabelFactory.swift in Sources */,

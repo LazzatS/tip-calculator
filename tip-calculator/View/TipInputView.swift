@@ -87,7 +87,7 @@ class TipInputView: UIView {
         return stackView
     }()
     
-    private let tipSubject = CurrentValueSubject<Tip, Never>(.none)
+    private let tipSubject: CurrentValueSubject<Tip, Never> = .init(.none)
     var tipPublisher: AnyPublisher<Tip, Never> {
         return tipSubject.eraseToAnyPublisher()
     }
