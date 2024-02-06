@@ -30,7 +30,7 @@ class BillInputView: UIView {
     
     private let currencyDenominationLabel: UILabel = {
         let label = LabelFactory.build(
-            text: "$",
+            text: String().currencySymbol,
             font: ThemeFont.bold(of: 24))
         label.setContentHuggingPriority(.defaultHigh, for: .horizontal)
         return label

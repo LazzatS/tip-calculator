@@ -11,4 +11,8 @@ extension String {
     var doubleValue: Double? {
         Double(self)
     }
+    
+    var currencySymbol: String {
+        return NumberFormatter().currencySymbol
+    }
 }
