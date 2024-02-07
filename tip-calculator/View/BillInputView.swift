@@ -88,6 +88,11 @@ class BillInputView: UIView {
         }.store(in: &cancellable)
     }
     
+    func reset() {
+        textField.text = nil
+        billSubject.send(0)
+    }
+    
     private func layout() {
         [headerView, textFieldContainerView].forEach { addSubview($0) }
         headerView.snp.makeConstraints {

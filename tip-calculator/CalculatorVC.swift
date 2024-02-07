@@ -72,8 +72,10 @@ class CalculatorVC: UIViewController {
             print(result)
         }.store(in: &cancellables)
         
-        output.resetCalculatorPublisher.sink { _ in
-            print("need to reset calculator")
+        output.resetCalculatorPublisher.sink { [unowned self] _ in
+            billInputView.reset()
+            tipInputView.reset()
+            splitInputView.reset()
         }.store(in: &cancellables)
     }
     
