@@ -45,7 +45,7 @@ class CalculatorVC: UIViewController {
     private lazy var logoViewTapGesture: AnyPublisher<Void, Never> = {
         let tapGesture = UITapGestureRecognizer(target: self, action: nil)
         tapGesture.numberOfTapsRequired = 2
-        view.addGestureRecognizer(tapGesture)
+        logoView.addGestureRecognizer(tapGesture)
         return tapGesture.tapPublisher.flatMap { _ in
             Just(())
         }.eraseToAnyPublisher()
